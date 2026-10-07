@@ -24,6 +24,12 @@ During the setup process, troubleshooting was performed to resolve issues involv
 
 After connectivity was established, the Windows endpoint successfully transmitted security telemetry to the Wazuh environment.
 
+### Wazuh Agent Status
+
+The Windows endpoint was successfully connected to the Wazuh Manager and reported an active agent status. This confirms that the endpoint was communicating with the Wazuh environment and available for security monitoring.
+
+![Wazuh Agent Status](../screenshots/wazuh-agent-status.png)
+
 ## 4. File Integrity Monitoring
 
 File Integrity Monitoring (FIM) was configured to monitor changes occurring on the Windows endpoint.
