@@ -51,7 +51,7 @@ These detections demonstrate how endpoint activity can be collected, monitored, 
 
 The Wazuh Dashboard captured the file activity generated during testing, including file creation, modification, and deletion events.
 
-![Wazuh Security Alerts](screenshots/Screenshot (78).png)
+![Wazuh Security Alerts](screenshots/wazuh-security-alerts.png)
 
 ## Project Outcome
 
