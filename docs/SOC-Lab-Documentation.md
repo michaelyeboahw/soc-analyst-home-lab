@@ -42,6 +42,12 @@ The monitoring process detected three types of file activity:
 
 These activities generated security alerts within the Wazuh Dashboard, providing visibility into changes occurring on the monitored endpoint.
 
+### FIM Configuration
+
+The Windows Wazuh agent was configured to monitor Windows system directories and the Startup folder for file activity. Real-time monitoring was enabled for the Startup directory to provide immediate visibility into file changes.
+
+![Wazuh FIM Configuration](../screenshots/wazuh-fim-configuration.png)
+
 ## 5. Security Alerts
 
 Testing the FIM configuration generated the following Wazuh alerts:
