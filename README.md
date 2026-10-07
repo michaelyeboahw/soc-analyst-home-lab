@@ -45,6 +45,14 @@ These detections demonstrate how endpoint activity can be collected, monitored, 
 
 **[View Full SOC Lab Documentation](docs/SOC-Lab-Documentation.md)**
 
+## Lab Evidence
+
+### Wazuh Security Alerts
+
+The Wazuh Dashboard captured the file activity generated during testing, including file creation, modification, and deletion events.
+
+![Wazuh Security Alerts](screenshots/Screenshot (78).png)
+
 ## Project Outcome
 
 Successfully built and tested an end-to-end security monitoring environment capable of collecting Windows endpoint telemetry and generating actionable alerts from monitored file activity.
