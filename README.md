@@ -47,6 +47,18 @@ These detections demonstrate how endpoint activity can be collected, monitored, 
 
 ## Lab Evidence
 
+### Wazuh Agent Status
+
+The Windows endpoint was successfully connected to the Wazuh Manager and actively reporting endpoint telemetry.
+
+![Wazuh Agent Status](screenshots/wazuh-agent-status.png)
+
+### Wazuh FIM Configuration
+
+The Windows Wazuh agent was configured to monitor Windows system locations and the Startup directory for file activity, with real-time monitoring enabled for the Startup directory.
+
+![Wazuh FIM Configuration](screenshots/wazuh-fim-configuration.png)
+
 ### Wazuh Security Alerts
 
 The Wazuh Dashboard captured the file activity generated during testing, including file creation, modification, and deletion events.
