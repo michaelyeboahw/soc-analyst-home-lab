@@ -46,6 +46,11 @@ Testing the FIM configuration generated the following Wazuh alerts:
 | File Modified | 550 | 7 |
 | File Deleted | 553 | 7 |
 
+### Wazuh Alert Evidence
+
+The Wazuh Dashboard captured the file activity generated during testing. The alerts provide visibility into file creation, modification, and deletion events detected on the Windows endpoint.
+
+![Wazuh Security Alerts](../screenshots/wazuh-security-alerts.png)
 ## 6. Alert Investigation
 
 The investigation workflow began by reviewing the generated Wazuh alerts and identifying the activity that triggered each detection.
